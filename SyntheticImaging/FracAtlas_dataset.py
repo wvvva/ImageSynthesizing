@@ -121,7 +121,7 @@ class FracAtlasDataset(datasets.GeneratorBasedBuilder):
       )
 
     def _split_generators(self, dl_manager: datasets.DownloadManager) -> List[datasets.SplitGenerator]:
-      downloaded_files = '/content/drive/MyDrive/Research/Yoon/SyntheticImaging'
+      downloaded_files = ''
 
       base_path = os.path.join(downloaded_files, "FracAtlas")
 
